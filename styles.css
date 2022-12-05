@@ -1,0 +1,124 @@
+body {
+  font-family: "Montserrat", "Arial", sans-serif;
+}
+
+/* styles of header */
+#bg-header {
+  background-image: url(img/background\ img.png);
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+
+}
+
+.site-header {
+width: 100%;
+height: 88px;
+color: #fff;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+/* styles of logo img */
+
+.main-logo {
+  margin-left: 120px;
+  margin-right: 336px;
+}
+
+/* styles of navbar */
+
+#navbar > ul {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  gap: 50px;
+}
+#navbar > ul > li > a {
+  transition: color 0.6s ease;
+}
+
+#navbar > ul > li > a, .btn > a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 28px;
+}
+
+#navbar > ul > li > a:hover {
+  color: #313EF7;
+  text-decoration: underline;
+}
+#navbar > ul > li > a:active {
+  opacity: 0.8;
+}
+
+/* styles of button */
+
+.btn {
+width: 147px;
+height: 48px;
+border: 1px solid #fff;
+border-radius: 59px;
+padding: 10px 40px;
+margin-right: 120px;
+background-color: inherit;
+transition: color 0.6s ease,
+background-color 0.6s ease,
+border-color 0.6s ease;
+}
+.btn:hover {
+  background-color: #778899;
+  border: 1px solid #778899;
+}
+.btn > a:hover {
+  color: #fff;
+}
+.btn:active {
+  opacity: 0.8;
+}
+
+/* Hero styles */
+
+/* first section styles */
+
+.fs-section {
+  overflow: hidden;
+}
+
+.fs-section-img {
+  width: 1323px;
+  margin: 40px 61px;
+  object-fit: cover;
+  margin-bottom: 0;
+
+}
+
+.fs-section-bottom {
+background-color: inherit;
+width: 54%;
+margin: auto;
+height: 96px;
+text-align: center;
+}
+
+.fs-section-heading {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 150%;
+  letter-spacing: 0.015em;
+  color: #fff;
+  text-transform: capitalize;
+  margin-bottom: 8px;
+}
+
+.fs-section-motto {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: rgba(255, 255, 255, 0.7);
+
+}
