@@ -90,6 +90,7 @@ border-color 0.6s ease;
 
 .fs-section-img {
   width: 1323px;
+  height: 300px;
   margin: 40px 61px;
   object-fit: cover;
   margin-bottom: 0;
@@ -102,6 +103,7 @@ width: 54%;
 margin: auto;
 height: 96px;
 text-align: center;
+margin-top: -20px;
 }
 
 .fs-section-heading {
@@ -120,5 +122,87 @@ text-align: center;
   font-size: 12px;
   line-height: 15px;
   color: rgba(255, 255, 255, 0.7);
+  margin-top: -8px;
+  margin-bottom: 550px;
+  text-align: center;
 
+}
+
+/* Order nav styles */
+.order-nav > ul {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  background-color: #fff;
+  border: 1px solid #fff;
+  position: absolute;
+  top: 574px;
+  padding: 0;
+  width: 520px;
+  margin-left: 120px;
+  border-radius: 20px 35px 0px 0px;
+  border-bottom: none;
+  border-collapse: collapse;
+
+}
+
+.btn-order {
+  background-color: inherit;
+  width: 173px;
+  height: 60px;
+  border: 1px solid rgba(192, 192, 192, 0.2);
+  padding: 16px 20px;
+  transition: background-color 0.5s ease,
+  color 0.5s ease;
+}
+.btn-order > a {
+  color: #030522;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+  text-decoration: none;
+  background-color: inherit;
+}
+
+.btn-order:hover {
+  background-color: #313EF7;
+}
+.btn-order > a:hover {
+color: #fff;
+}
+.btn-order:active {
+  opacity: 0.8;
+}
+
+.radius-left {
+  border-radius: 20px 0 0 0;
+}
+
+.radius-right {
+  border-radius: 0 30px 0 0;
+}
+
+/* Book options styles */
+.book-options {
+width: 1200px;
+margin: 0 120px;
+position: absolute;
+top: 650px;
+background-color: #fff;
+border-radius: 0 20px 0 0;
+}
+.book-options > ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 40px 70px;
+  gap: 24px;
+  padding: 0;
+  list-style-type: none;
+  gap: 80px;
+}
+.book-options > ul > li > a, p {
+  position: absolute;
+margin-top: 40px;
+margin-left: 8px;
 }
