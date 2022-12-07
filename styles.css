@@ -1,5 +1,6 @@
 body {
   font-family: "Montserrat", "Arial", sans-serif;
+  background-color: rgb(211, 211, 211, 0.5);
 }
 
 /* styles of header */
@@ -82,6 +83,7 @@ border-color 0.6s ease;
 
 /* Hero styles */
 
+
 /* first section styles */
 
 .fs-section {
@@ -124,7 +126,6 @@ margin-top: -20px;
   color: rgba(255, 255, 255, 0.7);
   margin-top: -8px;
   margin-bottom: 550px;
-  text-align: center;
 
 }
 
@@ -202,7 +203,42 @@ border-radius: 0 20px 0 0;
   gap: 80px;
 }
 .book-options > ul > li > a, p {
-  position: absolute;
+position: absolute;
 margin-top: 40px;
 margin-left: 8px;
+}
+
+
+/* Third section styles */
+
+.thd-section {
+  margin-top: 200px;
+  background-color: inherit;
+  width: 1200px;
+  margin-left: 120px;
+}
+
+.features-heading {
+font-weight: 700;
+font-size: 40px;
+line-height: 150%;
+letter-spacing: 0.015em;
+color: #030522;
+text-align: center;
+text-transform: capitalize;
+}
+
+.main-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.features-container {
+  background-color: #fff;
+  width: 281px;
+  height: 378px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
