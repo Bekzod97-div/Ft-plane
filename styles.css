@@ -175,11 +175,16 @@ margin-top: -20px;
   line-height: 28px;
   text-decoration: none;
   text-align: center;
+  transition: background-color 0.6s ease,
+  color 0.6s ease, opacity 0.6s ease;
 }
 
 .order-btn-link:hover {
   background-color: #313EF7;
   color: #fff;
+}
+.order-btn-link:active {
+  opacity: 0.6;
 }
 /* Book options styles */
 .book-options {
@@ -211,9 +216,14 @@ padding: 40px 70px
   font-weight: 600;
   font-size: 18px;
   line-height: 28px;
+  transition: color 0.6s ease,
+  opacity 0.6s ease;
 }
 .book-options-link:hover {
   color: #313EF7;
+}
+.book-options-link:active {
+  opacity: 0.6;
 }
 .book-options-text > p {
 font-weight: 400;
@@ -221,6 +231,33 @@ font-size: 15px;
 line-height: 28px;
 color: #aeb5bf;
 }
+/* Button styles */
+.book-btn {
+  display: flex;
+  justify-content: center;
+  margin-top: 24px;
+}
+.book-btn-link {
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 28px;
+  background-color: #313EF7;
+  color:#fff;
+  box-shadow: 0 10px 14px 0 rgba(49, 62, 247, 0.25);
+  padding: 14px 45px;
+  border-radius: 56px;
+  transition: background-color 0.6s ease,
+  opacity 0.6s ease;
+}
+
+.book-btn-link:hover {
+  background-color:#778899;
+}
+.book-btn-link:active {
+  opacity: 0.6;
+}
+
 
 
 /* Third section styles */
