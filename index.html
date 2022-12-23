@@ -5,83 +5,91 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>FT Plane</title>
-  <link rel="stylesheet" href="styles.css">
   <!-- font styles -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter&family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,500&display=swap" rel="stylesheet">
+
+  <!-- site styles -->
+  <link rel="stylesheet" href="normalize.css">
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <div id="bg-header">
     <!-- Head of site -->
     <header class="site-header">
-      <!-- logo img of site -->
-      <div class="main-logo">
-        <img src="img/logo (1).svg" alt="site logo" width="164px" height="34px">
+      <div class="container">
+        <!-- logo img of site -->
+        <div class="main-logo">
+          <img src="img/logo (1).svg" alt="site logo" width="164px" height="34px">
+        </div>
+        <!-- navbar of site -->
+        <nav id="navbar">
+          <ul class="navbar-list">
+            <li class="navbar-item"><a class="navbar-link" href="index.html">All Flight</a></li>
+            <li class="navbar-item"><a class="navbar-link" href="#">Schedule</a></li>
+            <li class="navbar-item"><a class="navbar-link" href="#">Passengers</a></li>
+            <li class="navbar-item"><a class="navbar-link" href="#">Your Orders</a></li>
+          </ul>
+        </nav>
+         <!-- button of header -->
+        <a class="btn navbar-link" href="#">Let’s Fly</a>
       </div>
-      <!-- navbar of site -->
-      <nav id="navbar">
-        <ul>
-          <li><a class="current" href="index.html">All Flight</a></li>
-          <li><a href="#">Schedule</a></li>
-          <li><a href="#">Passengers</a></li>
-          <li><a href="#">Your Orders</a></li>
-        </ul>
-      </nav>
-       <!-- button of header -->
-       <button class="btn"><a href="#">Let’s Fly</a></button>
     </header>
       <!-- First section of hero -->
-      <section class="fs-section">
-        <div>
-          <img class="fs-section-img" src="img/airplane img.svg" alt="airplane img" width="80%">
-        </div>
-        <div class="fs-section-bottom">
-          <h2 class="fs-section-heading">Travel around the world</h2>
-          <p class="fs-section-motto">One of the advantages of being disorganized is that one is always having surprising discoveries</p>
-        </div>
-      </section>
+      <div class="container">
+        <section class="fs-section">
+          <div>
+            <img class="fs-section-img" src="img/airplane.png" alt="airplane img" width="1200" height="300" srcset="img/airplane.png 1x, img/airplane@2x.png 2x">
+          </div>
+          <div class="fs-section-bottom">
+            <h2 class="fs-section-heading">Travel around the world</h2>
+            <p class="fs-section-motto">One of the advantages of being disorganized is that one is always having surprising discoveries</p>
+          </div>
+        </section>
+      </div>
   </div>
   <!-- Main page of site -->
 
   <main class="site-hero">
 
     <!-- Second section of page -->
-    <section class="sc-section">
-      <div class="order-nav">
-        <ul>
-          <li><button class="btn-order radius-left"><a href="#">Economy</a></button></li>
-          <li><button class="btn-order"><a href="#">Business</a></button></li>
-          <li><button class="btn-order radius-right"><a href="#">First</a></button></li>
-        </ul>
-      </div>
-
-      <div class="book-options">
-        <ul>
-          <li>
-            <img src="img/location.png" alt="location icon">
-            <a href="#">Location</a>
-            <p>Where are you going?</p>
-          </li>
-          <li>
-            <img src="img/user.png" alt="user icon">
-            <a href="#">Travelers</a>
-            <p>Add guest</p>
-          </li>
-          <li>
-            <img src="img/calendar.png" alt="calendar icon">
-            <a href="#">Check-in</a>
-            <p>Add date</p>
-          </li>
-          <li>
-            <img src="img/calendar.png" alt="calendar icon">
-            <a href="#">Check-out</a>
-            <p>Add date</p>
-          </li>
-        </ul>
-        <button><a href="#">Book Now</a></button>
-      </div>
-    </section>
+    <div class="container">
+      <section class="sc-section">
+        <div class="order-tab">
+          <ul class="order-nav">
+            <li class="order-btn first"><a class="order-btn-link" href="#">Economy</a></li>
+            <li class="order-btn"><a class="order-btn-link" href="#">Business</a></li>
+            <li class="order-btn third"><a class="order-btn-link" href="#">First</a></li>
+          </ul>
+        </div>
+        <div class="book-options">
+          <ul>
+            <li>
+              <img src="img/location.png" alt="location icon">
+              <a href="#">Location</a>
+              <p>Where are you going?</p>
+            </li>
+            <li>
+              <img src="img/user.png" alt="user icon">
+              <a href="#">Travelers</a>
+              <p>Add guest</p>
+            </li>
+            <li>
+              <img src="img/calendar.png" alt="calendar icon">
+              <a href="#">Check-in</a>
+              <p>Add date</p>
+            </li>
+            <li>
+              <img src="img/calendar.png" alt="calendar icon">
+              <a href="#">Check-out</a>
+              <p>Add date</p>
+            </li>
+          </ul>
+          <button><a href="#">Book Now</a></button>
+        </div>
+      </section>
+    </div>
 
     <!-- Third section styles -->
     <section class="thd-section">
