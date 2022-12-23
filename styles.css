@@ -152,8 +152,6 @@ margin-top: -20px;
 .order-btn {
   width: 177px;
   flex-grow: 1;
-  padding: 16px 20px 16px 20px;
-  border: 1px solid rgba(211, 211, 211, 0.6);
   background-color: inherit;
   transition: background-color 0.5s ease,
   color 0.5s ease;
@@ -166,6 +164,8 @@ margin-top: -20px;
 }
 .order-btn-link {
   display: block;
+  padding: 16px 20px 16px 20px;
+  border: 1px solid rgba(211, 211, 211, 0.6);
   color: #030522;
   font-weight: 600;
   font-size: 18px;
@@ -178,7 +178,6 @@ margin-top: -20px;
   background-color: #313EF7;
   color: #fff;
 }
-
 /* Book options styles */
 .book-options {
 width: 1200px;
